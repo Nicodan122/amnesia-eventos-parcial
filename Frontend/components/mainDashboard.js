@@ -12,6 +12,7 @@ function dashboardComp() {
         </div>
       </div>
 
+      ${role === "admin" ? `
       <div class="col-md-4 mb-3">
         <div class="card custom-card">
           <div class="card-body text-center d-flex flex-column align-items-center">
@@ -20,6 +21,7 @@ function dashboardComp() {
           </div>
         </div>
       </div>
+      ` : ""}
 
     <div class="row">
       <div class="col-md-4 mb-3">
