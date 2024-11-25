@@ -25,11 +25,11 @@ function userReservationForm() {
         <div class="mb-3">
           <label for="fieldType" class="form-label">Tipo de Cancha:</label>
           <select id="fieldType" class="form-select" required>
-            <option value="Cancha de Fútbol 5" style="color: black;">Cancha de Fútbol 5</option>
-            <option value="Cancha de Fútbol 7" style="color: black;">Cancha de Fútbol 7</option>
-            <option value="Cancha de Tenis" style="color: black;">Cancha de Tenis</option>
-            <option value="Cancha de Paddle" style="color: black;">Cancha de Paddle</option>
-            <option value="Cancha de Básquet" style="color: black;">Cancha de Básquet</option>
+            <option value="Combo audio" style="color: black;">Combo audio</option>
+            <option value="Combo audio plus" style="color: black;">Combo audio plus</option>
+            <option value="Combo audio premium" style="color: black;">Combo audio premium</option>
+            <option value="Combo luces" style="color: black;">Combo luces</option>
+            <option value="Combo luces plus" style="color: black;">Combo luces plus</option>
           </select>
         </div>
 
@@ -117,7 +117,7 @@ function adminReservationList() {
               (reservation, index) => `
             <li class="list-group-item">
               <strong>Usuario:</strong> ${reservation.user} | 
-              <strong>Cancha:</strong> ${reservation.fieldType} | 
+              <strong>Alquiler:</strong> ${reservation.fieldType} | 
               <strong>Fecha:</strong> ${reservation.date} | 
               <strong>Hora:</strong> ${reservation.time} | 
               <strong>Estado:</strong> ${reservation.status}

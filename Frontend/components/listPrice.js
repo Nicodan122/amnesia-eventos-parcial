@@ -10,7 +10,7 @@ function renderPrices() {
 
   document.getElementById("app").innerHTML = `
     <div class="container my-5 p-4 rounded" style="background-color: #f8f9fa;">
-      <h2 class="text-center fw-bold mb-4" style="color: #000000;">Precios de las Canchas</h2>
+      <h2 class="text-center fw-bold mb-4" style="color: #000000;">Precios de los alquileres</h2>
       <ul class="list-unstyled">
         ${priceList}
       </ul>

@@ -40,7 +40,7 @@ function upcomingReservations() {
         .map(
           (reservation) => `
           <li class="list-group-item">
-            <strong>Cancha:</strong> ${reservation.fieldType} | 
+            <strong>Alquiler:</strong> ${reservation.fieldType} | 
             <strong>Fecha:</strong> ${reservation.date} | 
             <strong>Hora:</strong> ${reservation.time} | 
             <strong>Estado:</strong> ${reservation.status}
@@ -67,7 +67,7 @@ function pastReservations() {
         .map(
           (reservation) => `
           <li class="list-group-item">
-            <strong>Cancha:</strong> ${reservation.fieldType} | 
+            <strong>Alquiler:</strong> ${reservation.fieldType} | 
             <strong>Fecha:</strong> ${reservation.date} | 
             <strong>Hora:</strong> ${reservation.time} | 
             <strong>Estado:</strong> ${reservation.status}

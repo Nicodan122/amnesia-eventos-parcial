@@ -47,7 +47,7 @@ function dashboardComp() {
           <div class="card custom-card">
             <div class="card-body text-center d-flex flex-column align-items-center">
               <img src="img/usuarios.png" alt="Crud Usuarios" class="icon mb-3">
-              <button class="btn btn-danger w-100" onclick="navigate('user')">Mi Perfil o Mi alquiler</button>
+              <button class="btn btn-danger w-100" onclick="navigate('perfil')">Mi Perfil</button>
             </div>
           </div>
         </div>
